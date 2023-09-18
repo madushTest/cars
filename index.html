@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  </head>
+  <body>
+    
+  <div class="carousel">
+    <a class="carousel-item" href="#one!"><img src="https://images.unsplash.com/photo-1692729396696-b55324b82316?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUwMzM1MTZ8&ixlib=rb-4.0.3&q=85"></a>
+    <a class="carousel-item" href="#two!"><img src="https://images.unsplash.com/photo-1692696777365-7a70469ebc2c?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUwMzM1MTZ8&ixlib=rb-4.0.3&q=85"></a>
+    <a class="carousel-item" href="#three!"><img src="https://images.unsplash.com/photo-1690735315587-7d4ae5ee2bb6?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUwMzM1MTZ8&ixlib=rb-4.0.3&q=85"></a>
+    <a class="carousel-item" href="#four!"><img src="https://images.unsplash.com/photo-1687370439151-b59deb97608c?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUwMzM1MTZ8&ixlib=rb-4.0.3&q=85"></a>
+    <a class="carousel-item" href="#five!"><img src="https://images.unsplash.com/photo-1692958124623-3b5ff1f3e6f2?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUwMzM1MTZ8&ixlib=rb-4.0.3&q=85"></a>
+  </div>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+     document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.carousel');
+    var instances = M.Carousel.init(elems, options);
+  });
+
+  // Or with jQuery
+
+  $(document).ready(function(){
+    $('.carousel').carousel();
+  });
+      
+  </script>
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+  </body>
+</html>
